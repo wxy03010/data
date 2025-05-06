@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>80-100 Male New Taipei Map Chart</title>
+  <style>
+    body {
+      background-color: #FFF8DC;
+      font-family:Arial, san-serif;
+      font-size:16px;
+    }
+    .box {
+      border: 3px solid;
+      padding: 20px;
+      margin: 20px auto; 
+      width: 80%;
+      font-size: 18px;
+      border-radius: 10px;
+    }
+    .color-7799CC {
+      border-color: #7799CC;
+    }
+    .color-779977 {
+      border-color: #779977;
+    }
+    
+    .iframe-wrapper {
+      width: 80%;                  /* 框的寬度是 80% */
+      margin: 40px auto;           /* 置中 */
+      border: 3px solid #FFA500;   /* 外框顏色 */
+      border-radius: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
 
+    iframe {
+      width: 100%;     /* 讓 iframe 填滿外框 */
+      height: 480px;   /* 可自行調整高度 */
+      border: none;
+    }
+    .orange-line {
+      width: 80%;
+      height: 4px;            
+      background-color: orange; 
+      margin: 40px auto;       
+      border: none;           
+    }
+    .orange-box {
+      background-color: orange;    /* 橘色背景 */
+      color: white;                /* 白色文字（對比橘色） */
+      padding: 20px;
+      margin: 30px auto;
+      width: 80%;
+      border-radius: 12px;         /* 圓角 */
+      font-size: 18px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 陰影讓它更立體 */
+    }
+  </style>
+</head>
+
+  
+<body>
+  <center>
+  <h1>新北市80-100歲男性與女性的村里人口比較</h1>
+  <div class="orange-line"></div>
+
+  <div class="orange-box">
+    <h2>動機</h2>
+    <h3>
+      因為家族中的長者都相當長壽，有許多年齡超過80歲的長者，而其中女性居多，<br>
+      因此我想了解在我的家鄉新北市中，80-100歲的男性女性的村里人口分布情形。<br>
+    </h3>
+  </div>
+    
+  </center>
+  <br><br><br><br><br>
+  
+  <center>
+  <h2>新北市80-100歲男性村里人口地圖</h2>
+  </center>
+  <div class="iframe-wrapper">
+  <iframe
+    src="https://plotdb.io/v/chart/37305" 
+    allowfullscreen="true" 
+    frameborder="0">
+  </iframe>
+  </div>
+  
+  <div class="box color-7799CC">
+  <center>
+  <h3>
+    可以看出新北市80-100歲男性的村里人口最大值296人最小值則只有2人，<br>
+    經過計算得出Q1為31人、Q2(中位數)為47人、Q3為64人，平均約51人。
+  </h3>
+  </center>
+  </div>
+  <br><br><br><br><br>
+  
+  <center>
+  <h2>新北市80-100歲女性村里人口地圖</h2>
+  </center>
+  <div class="iframe-wrapper">
+  <iframe
+    src="https://plotdb.io/v/chart/37328" 
+    allowfullscreen="true" 
+    frameborder="0">
+  </iframe>
+  </div>
+  
+  <div class="box color-779977">
+  <center>
+  <h3>
+    可以看出新北市80-100歲女性的村里人口最大值361人最小值則有5人，<br>
+    經過計算得出Q1為45人、Q2(中位數)為69人、Q3為99人，平均約76人。
+  </h3>
+  </center>
+  </div>
+  <br><br><br><br><br>
+
+  <center>
+  <div class="orange-box">
+  <h2>總結</h2>
+    <h3>
+      從整體上來看，新北市的人口分布集中在西半部，可能是因為東半部是山區，不易形成聚落。<br>
+      而新北市80-100歲的長者，就如同我在家族中觀察到的一樣，女性長者的人口多於男性長者。
+    </h3>
+  </div>
+  </center>
+  <br><br><br><br><br>
+  
+</body>
+</html>
